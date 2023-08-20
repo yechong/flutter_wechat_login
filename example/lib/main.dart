@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> doInit() async {
 
-    _flutterWechatLogin.init(appId: "", secret: "", universalLink: "");
+    await _flutterWechatLogin.init(appId: "", secret: "", universalLink: "");
 
     bool isInstalled = await _flutterWechatLogin.isInstalled();
 
