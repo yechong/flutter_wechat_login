@@ -4,9 +4,9 @@
 
 Flutter Wechat Login Plugin
 
-|             | Android | iOS   |
-|-------------|---------|-------|
-| **Support** | SDK 19+ | 11.0+ |
+|             | Android | iOS |
+|-------------|---------|-----|
+| **Support** | YES     | YES |
 
 <p>
   <img src="https://github.com/yechong/flutter_wechat_login/blob/main/doc/images/android.gif?raw=true"
