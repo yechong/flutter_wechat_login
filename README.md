@@ -65,7 +65,7 @@ Map<String, dynamic> userInfo = await flutterWechatLogin.getUserInfo(accessToken
 
 
 ### Configure Android version
-- 1. Create a package name `wxapi` under the project `android` directory `/app/src/main/java/packageName`, and then create a new `WXEntryActivity` under this package name, the code is as follows:
+- 1)Create a package name `wxapi` under the project `android` directory `/app/src/main/java/packageName`, and then create a new `WXEntryActivity` under this package name, the code is as follows:
 ```java
 package packageName.wxapi;
 
@@ -140,7 +140,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
 
 ```
 
-- 2. Configure `android/app/src/main/AndroidManifest.xml`
+- 2)Configure `android/app/src/main/AndroidManifest.xml`
 >WeChat needs to verify the package name, so the path of the Activity must be `your package name.wxapi.WXEntryActivity`, where `your package name` must be the package name filled in by the WeChat open platform registration application.
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
