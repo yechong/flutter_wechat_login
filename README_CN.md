@@ -2,9 +2,9 @@
 
 Flutter集成微信登录插件
 
-|             | Android | iOS   |
-|-------------|---------|-------|
-| **Support** | SDK 19+ | 11.0+ |
+|             | Android | iOS |
+|-------------|---------|-----|
+| **Support** | YES     | YES |
 
 <p>
   <img src="https://github.com/yechong/flutter_wechat_login/blob/main/doc/images/android.gif?raw=true"
