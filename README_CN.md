@@ -63,7 +63,7 @@ Map<String, dynamic> userInfo = await flutterWechatLogin.getUserInfo(accessToken
 
 
 ### 配置Android版本
-- 1. 在项目的 `android` 目录 `/app/src/main/java/你的包名` 下创建一个包名 `wxapi` ，然后在此包名下新建一个 `WXEntryActivity` ，代码如下：
+- 1.在项目的 `android` 目录 `/app/src/main/java/你的包名` 下创建一个包名 `wxapi` ，然后在此包名下新建一个 `WXEntryActivity` ，代码如下：
 ```java
 package 你的包名.wxapi;
 
@@ -138,7 +138,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
 
 ```
 
-- 2. 配置 `android/app/src/main/AndroidManifest.xml`
+- 2.配置 `android/app/src/main/AndroidManifest.xml`
 >微信需要验证包名，因此Activity的路径必须是 `你的包名.wxapi.WXEntryActivity` ，其中 `你的包名` 必须是微信开放平台注册应用填写的包名。
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
