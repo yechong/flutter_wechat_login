@@ -144,28 +144,28 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
 >WeChat needs to verify the package name, so the path of the Activity must be `your package name.wxapi.WXEntryActivity`, where `your package name` must be the package name filled in by the WeChat open platform registration application.
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-	<!-- new content 开始 -->
+	<!-- new content start -->
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	<!-- new content 结束 -->
+	<!-- new content end -->
 	<application>
 		...
-		<!-- new content 开始 -->
+		<!-- new content start -->
 		<activity
-			android:name="你的包名.wxapi.WXEntryActivity"
+			android:name="Your package name.wxapi.WXEntryActivity"
 			android:theme="@android:style/Theme.Translucent.NoTitleBar"
 			android:exported="true"
-			android:taskAffinity="你的包名"
+			android:taskAffinity="Your package name"
 			android:launchMode="singleTask">
 		</activity>
-		<!-- new content 结束 -->
+		<!-- new content end -->
 		...
 	</application>
-	<!-- new content 开始 -->
+	<!-- new content start -->
 	<queries>
 		<package android:name="com.tencent.mm" />
 	</queries>
-	<!-- new content 结束 -->
+	<!-- new content end -->
 </manifest>
 ```
 
