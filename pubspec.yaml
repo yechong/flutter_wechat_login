@@ -1,6 +1,6 @@
 name: flutter_wechat_login
 description: A plugin that integrates Wechat login, supports android and iOS platforms, and is easy to use. Nevertheless, I strongly recommend that you read the official documentation and the README of this plugin in detail.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/yechong/flutter_wechat_login
 homepage:
 
