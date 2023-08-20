@@ -23,30 +23,37 @@ abstract class FlutterWechatLoginPlatform extends PlatformInterface {
     _instance = instance;
   }
 
+  /// init wechat plugin
   Future<void> init({required String appId, required String secret, String? universalLink}) {
     throw UnimplementedError('init() has not been implemented.');
   }
 
+  /// check wechat app is installed
   Future<bool> isInstalled() {
     throw UnimplementedError('isInstalled() has not been implemented.');
   }
 
+  /// WeChat app authorized login
   Future<String?> login() {
     throw UnimplementedError('login() has not been implemented.');
   }
 
+  /// Exchange code for access_token, refresh_token and authorized scope
   Future<String?> getAccessToken({required String code}) {
     throw UnimplementedError('getAccessToken() has not been implemented.');
   }
 
+  /// Refresh or renew access_token
   Future<String?> refreshToken({required String refreshToken}) {
     throw UnimplementedError('refreshToken() has not been implemented.');
   }
 
+  /// Check access_token validity
   Future<String?> checkToken({required String accessToken, required String openid}) {
     throw UnimplementedError('checkToken() has not been implemented.');
   }
 
+  /// Get WeChat user info
   Future<String?> getUserInfo({required String accessToken, required String openid}) {
     throw UnimplementedError('getUserInfo() has not been implemented.');
   }
