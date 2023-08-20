@@ -176,7 +176,7 @@ Configure `URL Types`
 - Use `xcode` to open your iOS project `Runner.xcworkspace`
 - In the `info` configuration tab under `URL Types`, add a new entry
     - `identifier` fills in `weixin`
-    - `URL Schemes` fill in `Your APPID`
+    - `URL Schemes` fills in `Your APPID`
     - As shown below:
       ![xcode configuration example](https://raw.githubusercontent.com/yechong/flutter_wechat_login/main/doc/images/ios_screenshot_01.png)
 
